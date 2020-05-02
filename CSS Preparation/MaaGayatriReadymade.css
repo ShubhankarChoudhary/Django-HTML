@@ -1,0 +1,32 @@
+h1{
+    color: white;
+    text-align: center;
+}
+blockquote{
+    color: rgb(42, 165, 52);
+}
+body{
+    background-color: blanchedalmond;
+    text-emphasis-color: rgb(147, 165, 42);
+}
+p{
+    text-align: center;
+    text-decoration: rgb(255, 255, 255);
+    
+}
+table thead tr{
+    color: white;
+}
+body h3{
+    text-emphasis-color: rgb(255, 255, 255);
+}
+nav{
+    color: rgb(255, 255, 255);
+    table-align : center
+}
+h3{
+    color: rgb(245, 245, 245);
+}
+.highlight{
+    color: brown;
+}
