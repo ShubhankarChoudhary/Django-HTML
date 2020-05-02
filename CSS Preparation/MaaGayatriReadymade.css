@@ -1,13 +1,14 @@
 h1{
-    color: white;
+    color: Red;
     text-align: center;
+    background-color: honeydew;
 }
 blockquote{
     color: rgb(42, 165, 52);
 }
 body{
-    background-color: blanchedalmond;
-    text-emphasis-color: rgb(147, 165, 42);
+    background-color:black;
+    
 }
 p{
     text-align: center;
@@ -17,16 +18,34 @@ p{
 table thead tr{
     color: white;
 }
-body h3{
-    text-emphasis-color: rgb(255, 255, 255);
-}
+
 nav{
-    color: rgb(255, 255, 255);
+    background-color: honeydew;
     table-align : center
 }
 h3{
     color: rgb(245, 245, 245);
+
 }
-.highlight{
-    color: brown;
+.Intro{
+    color: teal;
+    background-color: honeydew;
+}
+table tbody td{
+    color: floralwhite;
+}
+h4{
+    background-color: honeydew;
+}
+.contact{
+    background-color: whitesmoke;
+    color: tomato;
+}
+.follow{
+    color: skyblue;
+    background-color: white;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
 }
