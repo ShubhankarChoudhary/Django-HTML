@@ -5,23 +5,35 @@
     <body class='Reg'>
         <header>Registration Form</header>
         <div class="Form">
-            <form action="https://www.youtube.com">
+            <form action="Hi.html">
             </br>
         </br>
-                <label for = 'Name' >Name : </label>
-                <input id = 'Name' type = 'text' name = 'Name'>
+                <label for = 'Name' class='nm' >Name : </label>
+                <input  class='in' placeholder="Enter your first Name" id = 'Name' type = 'text' name = 'Name'>
             </br>
                 <label for ='DOB' >D.O.B :  </label>
-                <input id = 'DOB' type = 'date' name = 'DateofBirth'>
+                <input class='dob' id = 'DOB' type = 'date' name = 'DateofBirth'>
             </br>
                 <label for = 'mail'>Email Id : </label>
-                <input id = 'mail' type = 'email' name = 'EmailId'>
+                <input class='ml' id = 'mail' type = 'email' name = 'EmailId'>
         </br>
-                <label for = 'pass'>Password : </label>
-                <input id="pass" type = 'password' name = 'Password'>
+                <label for = 'num'>Contact No : </label>
+                <input class='numb' id='num' type="tel" name='number'>
     </br>
-                <input type="submit" value="Submit">
-                <input type="reset" >
+                <label for = 'pass'>Password : </label>
+                <input class='ps' id="pass" type = 'password' name = 'Password'>
+
+</br>
+                <label for ='con' >Country</label>
+                    <select name="con">
+                        <option name='No'>None</option>
+                        <option name='IN'>India</option>
+                        <option name='US'>USA</option>
+                        <option name='UK'>United Kingdom</option>
+                    </select>
+    </br>
+                <input type="submit" class="sb">
+                <input type="reset" class="rs">
             </br>
         </br>
             </form>
