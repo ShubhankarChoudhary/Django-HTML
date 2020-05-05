@@ -1,0 +1,59 @@
+.Alpha{
+    color: green;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid blue;  
+    border-bottom: 2px  solid blue;
+    background-color: whitesmoke;
+}
+header{
+    color: skyblue;
+    font-size: 35px;
+    text-align: center;
+}
+.A{
+    width: 30%;
+    float: left;
+    
+    box-sizing: border-box;
+    background-color: yellow;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.C{
+    width: 30%;
+    float: right;
+    
+    color: black;
+    box-sizing: border-box;
+    background-color: skyblue;
+    border-right: 2px black;
+}
+.B{
+    width: 30%;
+    float: right;
+    
+    background-color: yellow;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+
+
+.U:after,.U:before{
+    content: "";
+    display: table;
+}
+.U:after{
+    clear: both;
+}
+.U{
+    zoom: 1;
+}
+footer{
+    text-align: center;
+    color: skyblue;
+    padding: 3%;
+}

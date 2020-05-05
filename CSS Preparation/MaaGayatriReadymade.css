@@ -6,10 +6,7 @@ h1{
 blockquote{
     color: rgb(42, 165, 52);
 }
-body{
-    background-color:black;
-    
-}
+
 p{
     text-align: center;
     text-decoration: rgb(255, 255, 255);
@@ -19,10 +16,6 @@ table thead tr{
     color: white;
 }
 
-nav{
-    background-color: honeydew;
-    table-align : center
-}
 h3{
     color: rgb(245, 245, 245);
 
@@ -46,6 +39,38 @@ h4{
     background-color: white;
 }
 img{
+    padding-top: 10px;
     max-width: 100%;
     max-height: 100%;
+}
+.Navi li{
+    list-style: none;
+    float: left;
+    margin: 0%;
+    text-decoration: none;
+    margin-left: 5px;
+}
+nav {
+    background-color: white;
+    padding-bottom: 20px;
+}
+U:after,.U:before{
+    content: "";
+    display: table;
+}
+.U:after{
+    clear: both;
+}
+.U{
+    zoom: 1;
+}
+.U a{
+    design: block;
+    text-decoration: none;
+    color: red;
+    padding: 10px 20px;
+    border: 2px solid honeydew ;
+}
+.U a:hover{
+    background-color: honeydew;
 }
