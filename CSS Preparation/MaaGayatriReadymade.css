@@ -1,31 +1,39 @@
+/*html, body {
+    margin: 0;
+    overflow: hidden;
+    width: 100vw;
+}
+
+ body::-webkit-scrollbar {
+    background: unset;
+} 
+
+body::-webkit-scrollbar-button {
+    color: unset;
+} 
+
+body::-webkit-scrollbar-thumb {
+    color: teal;
+}
+
 h1{
     color: Red;
     text-align: center;
     background-color: honeydew;
 }
-blockquote{
-    color: rgb(42, 165, 52);
-}
-
 p{
     text-align: center;
     text-decoration: rgb(255, 255, 255);
     
 }
 table thead tr{
-    color: white;
+    color: floralwhite;
+    background-color: lightgreen;
 }
 
-h3{
-    color: rgb(245, 245, 245);
-
-}
-.Intro{
-    color: teal;
-    background-color: honeydew;
-}
 table tbody td{
     color: floralwhite;
+    background-color: lightgreen;
 }
 h4{
     background-color: honeydew;
@@ -33,15 +41,17 @@ h4{
 .contact{
     background-color: whitesmoke;
     color: tomato;
+    position: absolute;
+    bottom: 0px;
 }
 .follow{
     color: skyblue;
-    background-color: white;
+    background-color: rgba(0,0,0,0.5);
+    bottom: 0px;
 }
 img{
-    padding-top: 10px;
     max-width: 100%;
-    max-height: 100%;
+    padding-left: 2%;
 }
 .Navi li{
     list-style: none;
@@ -49,10 +59,6 @@ img{
     margin: 0%;
     text-decoration: none;
     margin-left: 5px;
-}
-nav {
-    background-color: white;
-    padding-bottom: 20px;
 }
 U:after,.U:before{
     content: "";
@@ -66,11 +72,108 @@ U:after,.U:before{
 }
 .U a{
     design: block;
+    float: right;
     text-decoration: none;
-    color: red;
+    color: white;
     padding: 10px 20px;
-    border: 2px solid honeydew ;
+    border: 2px solid rgb(128, 0, 60) ;
+    background-color: ;
 }
 .U a:hover{
-    background-color: honeydew;
+    background-color: pink;
+}
+.image-inside p{
+    position: absolute;
+    bottom: 0%;
+    color: lightgreen;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    padding-left: 2%;
+    padding-right: 2%;
+    max-width: 95%;
+}
+.Navi{
+    position: absolute;
+    top: 20%;
+}
+.imgage{
+    position: relative;
+}
+
+.nav_links {
+    color: white;
+    text-decoration: none;
+    border: 2px red;
+    padding: 10px 8px;
+}
+
+.nav_links:active {
+    color: initial;
+}
+
+.nav_links:visited {
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+    backdrop-filter: blur(20px);
+    font-family: sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-stretch: semi-condensed;
+    letter-spacing: 2px;
+}*/
+body{
+    background-color: rgb(226, 255, 192);
+    text-align: center;
+    font-size: 250%;
+}
+
+.head{
+    font: 40px;
+}
+
+.Options a{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-stretch: semi-condensed;
+    letter-spacing: 2px;
+    text-decoration: none;
+    
+    position: absolute;
+    top: 20%;
+}
+.description{
+    font-size: 15px;
+    position: absolute;
+    bottom: 0%;
+}
+table thead tr{
+    color: floralwhite;
+    background-color: lightgreen;
+}
+
+table tbody td{
+    color: floralwhite;
+    background-color: lightgreen;
+}
+.alpha{
+    color: white;
+    background-color: lightgreen;
+    font-size: ;
+}
+img{
+    width: 100%;
+}
+.social{
+    font-size: 50%;
+}
+table{
+    font-size: 50%;
+}
+.image{
+    position: relative;
 }

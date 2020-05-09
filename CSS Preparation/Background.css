@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+}
+img{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    padding: 5%;
+    border: 2%;
+    margin: 2%;
+}
+/*.COVID{
+   font-size: 20px;
+   background-color: tomato;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}*/
+.C li{
+    list-style: none;
+    float: left;
+    margin-right: 20%;
+    margin-bottom: 3% ;
+    
+}
+ul{
+    margin:0px;
+    padding: 0px;
+    background-attachment: fixed;
+}
+.C a{
+    color: blue;
+   
+    background-attachment: fixed;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 2px solid lightblue;
+    position: absolute;
+    
+    position: fixed;
+}
+.C a:hover{
+    background-color: lightblue;
+    background-attachment: fixed;
+}
