@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    
+    color: black;
+}
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 40%;
+    margin: 20%;
+}
+thead{
+    color: darkmagenta;
+    font: outline;
+    font-size: 200%;
+    text-align: left;
+    background-color: darkseagreen;
+    color: whitesmoke;
+    text-shadow: yellow;
+}
+tbody{
+    text-align: left;
+}
+tfoot{
+    text-align: left;
+}
+table th,table td{
+    border: 1px solid darkseagreen;
+    padding: 5px;
+}
+tbody tr:nth-child(even) td{
+    background-color: lightblue;
+}
