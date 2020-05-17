@@ -1,18 +1,17 @@
 body{
     text-align: center;
-    
     color: black;
 }
 table{
     border-spacing: 0px;
     border-collapse: collapse;
-    width: 40%;
-    margin: 20%;
+    width: 70%;
+    margin: 10%;
 }
 thead{
     color: darkmagenta;
     font: outline;
-    font-size: 200%;
+    font-size: 100%;
     text-align: left;
     background-color: darkseagreen;
     color: whitesmoke;
@@ -29,5 +28,24 @@ table th,table td{
     padding: 5px;
 }
 tbody tr:nth-child(even) td{
-    background-color: lightblue;
+    background-color: lightgreen;
+}
+table.Grocery{
+    background-color:;
+}
+table.PersonName{
+    width: 20%;
+}
+.PersonPlace, .PersonState{
+    width: 40%;
+}
+.GrocItem{
+    width: 50%;
+}
+table.Person td:nth-child(2),
+table.Person td:nth-child(3){
+    text-align: center;
+}
+table.Grocery td:nth-child(2){
+    text-align: center;
 }
