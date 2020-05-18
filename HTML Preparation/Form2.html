@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="../CSS Preparation/Form2.css">
+    <body>
+        <header>Registration Form</header>
+        <form>
+            <label for="Name" class="Name">Name : </label>
+            <input id="Name" type="text" name="NameofEmployee" placeholder="Name">
+            <label for="Email" class="Email">Enter your mail : </label>
+            <input id="Email" type="email" name="EmailofEmployee" placeholder="Email">
+            <label for="pass" class="Password">Enter Password : </label>
+            <input id="pass" type="password" name="Password"placeholder='Password'>
+            <label for="State">Select your State : </label>
+            <select id="State" name="StateName">
+                <option value="No">None</option>
+                <option value="WB">West Bengal</option>
+                <option value="JH">Jharkhand</option>
+                <option value="BR">Bihar</option>
+                <option value="UP">Uttar Pradesh</option>
+            </select>
+            <fieldset class="Gender">
+                <legend>Select Gender</legend>
+                <label for="Male">Male</label>
+                <input id="Male" type="radio" name="GendeofEmployee" value="M">
+                <label for="Female">Female</label>
+                <input id="Female" type="radio" name="GendeofEmployee" value="F">
+            </fieldset>
+            <fieldset class="Food">
+                <legend>Select food items</legend>
+                <input id='Sweet' type="checkbox"  name='sweet' value='Sweets'>
+                <label for='Sweet'>Sweets</label>
+                <input id='Curry' type="checkbox"  name='Curry' value='Curry'>
+                <label for='Curry'>Curry</label>
+            </fieldset>
+            <input type="submit">
+        </form>
+    </body>
+</html>
