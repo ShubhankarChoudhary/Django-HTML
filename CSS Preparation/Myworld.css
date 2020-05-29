@@ -1,0 +1,24 @@
+nav li{
+    list-style: none;
+    float: left;
+    margin-right: 5%;    
+}
+body{
+    text-align: center;
+    
+    background-image: linear-gradient( to bottom , rgb(0, 252, 252), white);
+    background-repeat: no-repeat;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+   
+    max-height: inherit;
+    padding: 20px;
+    
+    background-repeat: no-repeat;
+}
+.Prod a{
+    
+    background-repeat: no-repeat;
+}

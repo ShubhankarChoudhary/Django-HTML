@@ -1,0 +1,87 @@
+body{
+    margin-top: 50px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.A a{
+    margin-top: 40px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: lightsalmon;
+    /* padding-right: 100px; */
+    padding: 10px;
+    border: 2px solid rgb(117, 209, 166);
+    box-shadow:  5px 5px 5px skyblue;
+    border-radius: 20px 40px 60px 80px;
+    border-radius: 10px;
+    border-radius: 50px/20px;
+    height: auto;
+    text-align: center;
+    transition: all 1s;
+}
+/* @media screen and (max-width : 800px){ 
+    .A a{
+        padding-right: 10px;
+        background-color: lightcyan;
+        text-align: center;
+    }
+/* } */
+.A a:hover{
+    background-color: wheat;
+}
+.B{
+    padding: 100px 100px;
+    height: 100px;
+    width: 100px;
+    background-color: turquoise;
+    margin:25%;
+    border-radius: 50% 50%;
+    transition: all 1s;
+    text-align: center;
+}
+.B:hover{
+    transform: rotate(360deg);
+    transition-timing-function: ease-out;
+}
+.C{
+    margin-top: 20px;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(65, 159, 190);
+    border-radius: 50%;
+}
+img{
+    width: 100%;
+    height: 100% ;
+    /* transform: rotate(30deg); */
+    /* transform: scale(1); */
+    /* transform: rotate(20deg) scale(0.5); */
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    position: relative;
+    transition: all;
+    transition-timing-function: linear;
+}
+.D{
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgb(46, 110, 131);
+}
+.Des{
+    position: absolute;
+    bottom: -50%;
+    text-align: center;
+    margin: 10%;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.D:hover img{
+    transform: scale(1.5) ;
+    transition: 2s;
+}
+.Des:hover{
+    transform: scale(1.5);
+    color: yellow;
+    transition: 1s;
+}

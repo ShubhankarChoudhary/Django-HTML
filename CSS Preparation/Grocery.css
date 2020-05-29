@@ -1,0 +1,11 @@
+body{
+    /*background-image: url(../ImagesforWebsites/ChannaDal.jpg);
+    background-repeat: repeat;*/
+    width: 0%;
+    padding: 0%;
+    width: 100%;
+    background-image:  linear-gradient(to bottom, rgb(17, 161, 218), white);
+}
+video{
+    width: 50%;
+}

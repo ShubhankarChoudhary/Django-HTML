@@ -13,24 +13,34 @@ body{
     width: 100%;
     margin: 0px;
     padding: 0px;
+    background-color: rgb(42, 130, 165);
 }
 .C{
     padding: 20px;
-    background-color:lightgray;
+    background-color:whitesmoke;
     overflow: hidden;
 }
 .alpha{
-    padding-top: 10%;
-    padding-bottom: 9%;
-    font-size: 80px;
+    padding-top: 20%;
+    padding-bottom: 19%;
+    font-size: 8vw;
     font-family: fantasy;
     font-style: italic;
     margin: 0px;
     color: lightseagreen;
+    text-shadow: 5px 5px 5px brown;
+    letter-spacing: 5px;
+    background-image: url(../ImagesforWebsites/LG2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.alpha:hover img{
+    transform: scale(1.5);
 }
 img{
     image-orientation: initial;
     width: 100vw;
+    padding: 0%;
 }
 .C a{
     text-decoration: none;
@@ -62,7 +72,7 @@ img{
     background-color: lightgrey;
     margin-right: 2px;
     cursor:pointer;
-    transition: 0.2s;
+    transition: 0.5s;
     
 }
 .bar:hover{
@@ -89,5 +99,8 @@ input[name='slide']{
 
 #four:checked ~s{
     margin-left: 75%;
+}
+.S1:hover img{
+    transform: scale(1.5);
 }
 
