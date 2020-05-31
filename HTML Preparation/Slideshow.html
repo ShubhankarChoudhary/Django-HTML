@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html>
     <header></header>
-    <link rel="stylesheet" href="../CSS Preparation/Slideshow.css"
+    <link rel="stylesheet" href="../CSS Preparation/Slideshow.css">
+    <script type="text/javascript" src="../JSPreparation/__MACOSX/slideshow/js/cycle2.js"></script>
+    <script type="text/javascript" src="../JSPreparation/__MACOSX/slideshow/js/jquery.js"></script>
     <body>
-        <div class="slidershow middle">
-            <div class="slides">
-                <input type="radio" id='1' name="r1" checked>
-                <input type="radio" id='2' name="r1">
-                <input type="radio" id='3' name="r1">
-                <input type="radio" id='4' name="r1">
-                <div class="slide s1">
-                    <img src="../ImagesforWebsites/1.jpg">
-                </div>
-                <div class="slide">
-                    <img src="../ImagesforWebsites/2.jpg">
-                </div>
-                <div class="slide">
-                    <img src="../ImagesforWebsites/3.jpg">
-                </div>
-                <div class="slide">
-                    <img src="../ImagesforWebsites/4.jpg">
-                </div>
+        <div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true">
+  
+            <div class="slide">
+              <img src="../ImagesforWebsites/BMW 1000 RR.jpg">
+  
+              <div class="slide-text">
+                <h3>Bee Title Here!</h3>
+                <p>This is the caption or descriptive text for the bee slide. <a href="#" class="btn-a">Call to action!</a> </p>
+              </div>
+  
             </div>
-            <div class="navigation">
-                <label for="1" class="bar"></label>
-                <label for="2" class="bar"></label>
-                <label for="3" class="bar"></label>
-                <label for="4" class="bar"></label>
+  
+            <div class="slide">
+              <img src="../ImagesforWebsites/Suzuki Hayabusa.jpg">
+  
+              <div class="slide-text">
+                <h3>Duck Title Here!</h3>
+                <p>This is the caption or descriptive text for the duck slide.</p>
+              </div>
+  
             </div>
-        </div>
+            <div class="slide">
+                <img src="../ImagesforWebsites/Ducati Panigale.jpg">
+    
+                <div class="slide-text">
+                  <h3>Bee Title Here!</h3>
+                  <p>This is the caption or descriptive text for the bee slide. <a href="#" class="btn-a">Call to action!</a> </p>
+                </div>
+    
+              </div>
     </body>
 </html>
