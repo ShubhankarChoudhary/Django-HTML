@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../ImagesforWebsites/Landscape.jpg");
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.Car{
+    transform: translateY(400%);
+    animation-name: moving-car-displ, moving-car-size;
+    animation-duration: 5s;
+    position: relative;
+    left: 45%;
+    width: auto;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(10);
+}
+/* @keyframes moving-car-displ{
+    0%{
+        transform: translateX(0px);
+    }
+    10%{
+        transform: translateX(100px) ;
+    }
+    20%{
+        transform: translateX(200px) ;
+    }
+    30%{
+        transform: translateX(300px) ;
+    }
+    40%{
+        transform: translateX(400px) ;
+    }
+    50%{
+        transform: translateX(500px);
+    }
+    60%{
+        transform: translateX(600px) ;
+    }
+    70%{
+        transform: translateX(700px);
+    }
+    80%{
+        transform: translateX(800px) ;
+    }
+    90%{
+        transform: translateX(900px) ;
+    }
+    100%{
+        transform: translateX(1000px);
+    }
+} */
+/* @keyframes moving-car-displ{ 
+    0%{
+        transform: translateY(100vh);
+    }
+    100%{
+        transform: translateY(90vh) ;
+    }
+    /* 20%{
+        transform: translateY(100vh) ;
+    }
+    30%{
+        transform: translateY(100vh) ;
+    }
+    40%{
+        transform: translateY(100vh) ;
+    }
+    50%{
+        transform: translateY(100vh);
+    }
+    60%{
+        transform: translateY(100vh) ;
+    }
+    70%{
+        transform: translateY(100vh);
+    }
+    80%{
+        transform: translateY(100vh) ;
+    }
+    90%{
+        transform: translateY(100vh) ;
+    }
+    100%{
+        transform: translateY(100vh);
+    } 
+}
+@keyframes moving-car-size{
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(0.9);
+    }
+    20%{
+        transform: scale(0.8);
+    }
+    30%{
+        transform: scale(0.7);
+    }
+    40%{
+        transform: scale(0.6);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    60%{
+        transform: scale(0.4);
+    }
+    70%{
+        transform: scale(0.3);
+    }
+    80%{
+        transform: scale(0.2);
+    }
+    90%{
+        transform: scale(0.1);
+    }
+    100%{
+        transform: scale(0.05);
+    }
+}*/
