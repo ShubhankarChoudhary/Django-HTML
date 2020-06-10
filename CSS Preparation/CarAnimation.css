@@ -2,19 +2,56 @@ body{
     margin: 0px;
     padding: 0px;
     background-image: url("../ImagesforWebsites/Landscape.jpg");
+    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
-.Car{
-    transform: translateY(400%);
-    animation-name: moving-car-displ, moving-car-size;
+.Car{ 
+    transform: translateY(500px) scale(0.3) ;
+    animation-name: moving-car-displ;
     animation-duration: 5s;
     position: relative;
-    left: 45%;
+    left: 12%;
     width: auto;
     animation-iteration-count: infinite;
     animation-timing-function: steps(10);
+    
+}
+@keyframes moving-car-displ{ 
+    0%{
+        transform:  translateY(500px) scale(0.28);
+    }
+    10%{
+        transform:  translateY(500px) scale(0.24) ;
+    }
+    20%{
+        transform: translateY(480px)  scale(0.20) ;
+    }
+    30%{
+        transform: translateY(450px)  scale(0.16) ;
+    }
+    40%{
+        transform: translateY(440px)  scale(0.12) ;
+    }
+    50%{
+        transform: translateY(430px)  scale(0.08);
+    }
+    60%{
+        transform: translateY(420px)   scale(0.07) ;
+    }
+    70%{
+        transform: translateY(405px)  scale(0.06);
+    }
+    80%{
+        transform: translateY(400px)  scale(0.05) ;
+    }
+    90%{
+        transform: translateY(390px)  scale(0.04) ;
+    }
+    100%{
+        transform: translateY(380px)   scale(0.03);
+    } 
 }
 /* @keyframes moving-car-displ{
     0%{
@@ -51,42 +88,8 @@ body{
         transform: translateX(1000px);
     }
 } */
-/* @keyframes moving-car-displ{ 
-    0%{
-        transform: translateY(100vh);
-    }
-    100%{
-        transform: translateY(90vh) ;
-    }
-    /* 20%{
-        transform: translateY(100vh) ;
-    }
-    30%{
-        transform: translateY(100vh) ;
-    }
-    40%{
-        transform: translateY(100vh) ;
-    }
-    50%{
-        transform: translateY(100vh);
-    }
-    60%{
-        transform: translateY(100vh) ;
-    }
-    70%{
-        transform: translateY(100vh);
-    }
-    80%{
-        transform: translateY(100vh) ;
-    }
-    90%{
-        transform: translateY(100vh) ;
-    }
-    100%{
-        transform: translateY(100vh);
-    } 
-}
-@keyframes moving-car-size{
+
+/*@keyframes moving-car-size{
     0%{
         transform: scale(1);
     }
