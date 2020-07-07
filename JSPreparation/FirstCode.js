@@ -13,5 +13,5 @@ var company
 /*company='ABC';*/
 console.log(company);
 alert('Hi! How are you?');
-var company=prompt('Which company do you work for?');
+// var company=prompt('Which company do you work for?');
 console.log(company);
