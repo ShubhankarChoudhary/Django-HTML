@@ -1,0 +1,25 @@
+body{
+    /* text-align: center; */
+    background-color: whitesmoke;
+    margin: 50%;
+}
+title{
+    color: white;
+}
+.login{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: black;
+    width: 50%;
+    border-radius: 20px;
+}
+.b1{
+    border: 2px solid black;
+    padding: 15px;
+}
+.b1:hover{
+    background-color: black;
+    color: wheat;
+    transition: 1s;
+    border: 5px solid blueviolet;
+}
