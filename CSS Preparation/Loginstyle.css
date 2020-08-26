@@ -37,15 +37,12 @@ input[type="button"]{
     height: 30px;
     display: block;
     outline: none;
+    background-color: green;
 }
 a{
     text-decoration: none;
     background-color: blue;
     float: right;
-}
-input[type="button"]:hover{
-    background-color: green;
-    transition: 2s;
 }
 label{
     color: white;
